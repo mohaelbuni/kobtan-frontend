@@ -10,3 +10,12 @@ body {
 /* .nav-bar-color {
     background-color: #2bdf61;
 } */ 
+
+@media print {
+    body * {
+        visibility: hidden;
+      }
+      .to-print * {
+        visibility: visible;
+       }
+  }
